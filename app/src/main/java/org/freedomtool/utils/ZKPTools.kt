@@ -9,48 +9,6 @@ import java.io.ByteArrayOutputStream
 
 class ZKPTools(val context: Context) {
 
-    external fun voteSMT(circuitBuffer: ByteArray,
-                         circuitSize: Long,
-                         jsonBuffer: ByteArray,
-                         jsonSize: Long,
-                         wtnsBuffer: ByteArray,
-                         wtnsSize: LongArray,
-                         errorMsg: ByteArray,
-                         errorMsgMaxSize: Long): Int
-    external fun credentialAtomicQueryMTPV2OnChainVoting(circuitBuffer: ByteArray,
-                                                       circuitSize: Long,
-                                                       jsonBuffer: ByteArray,
-                                                       jsonSize: Long,
-                                                       wtnsBuffer: ByteArray,
-                                                       wtnsSize: LongArray,
-                                                       errorMsg: ByteArray,
-                                                       errorMsgMaxSize: Long): Int
-
-    external fun witnesscalcAuthV2(circuitBuffer: ByteArray,
-                               circuitSize: Long,
-                               jsonBuffer: ByteArray,
-                               jsonSize: Long,
-                               wtnsBuffer: ByteArray,
-                               wtnsSize: LongArray,
-                               errorMsg: ByteArray,
-                               errorMsgMaxSize: Long): Int
-    external fun passportVerification1(circuitBuffer: ByteArray,
-                                         circuitSize: Long,
-                                         jsonBuffer: ByteArray,
-                                         jsonSize: Long,
-                                         wtnsBuffer: ByteArray,
-                                         wtnsSize: LongArray,
-                                         errorMsg: ByteArray,
-                                         errorMsgMaxSize: Long) : Int
-    external fun passportVerification256(circuitBuffer: ByteArray,
-                                      circuitSize: Long,
-                                      jsonBuffer: ByteArray,
-                                      jsonSize: Long,
-                                      wtnsBuffer: ByteArray,
-                                      wtnsSize: LongArray,
-                                      errorMsg: ByteArray,
-                                      errorMsgMaxSize: Long) : Int
-
     external fun CalcPublicBufferSize(zkeyBuffer: ByteArray, zkeySize: Long): Long
     external fun groth16_prover(
         zkeyBuffer: ByteArray, zkeySize: Long,
