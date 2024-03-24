@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Voting" parent="Theme.Material3.Light.NoActionBar">
+    </style>
+
+    <style name="TextFontInter700">
+        <item name="android:fontFamily">@font/tauri_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextFontInter400">
+        <item name="android:fontFamily">@font/tauri_regular</item>
+    </style>
+
+    <style name="Theme.Voting.PrimaryText" parent="TextFontInter700">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <style name="Theme.Voting.Button" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="backgroundTint">@color/primary_button_color</item>
+        <item name="android:fontFamily">@font/tauri_regular</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Voting.SecondaryText" parent="TextFontInter400">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:color">@color/secondary_text_color</item>
+    </style>
+
+    <style name="Theme.Voting.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="iconTint">@color/black</item>
+    </style>
+
+    <style name="Theme.Voting" parent="Base.Theme.Voting">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+
+
+</resources>

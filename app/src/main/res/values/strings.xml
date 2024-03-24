@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AuthentiGate</string>
+    <string name="let_s_start">Let`s Start</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="scan_your_passport">Scan your Document</string>
+    <string name="scan_passport_description">Data is stored only on a device</string>
+    <string name="nfc_scan_tip">Move your ID card inside the border</string>
+    <string name="permission_title">Permission Required</string>
+    <string name="permission_description">We need your permission to access camera in order to scan Passport.</string>
+    <string name="button_ok">OK</string>
+    <string name="nfc_scan_title">NFC Scanning</string>
+    <string name="nfc_scan_description">Reading data</string>
+    <string name="confirm_your_data">Confirm your data</string>
+    <string name="confitm_data_description">Anonymized proof will be created</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="comfirm_proof_description">Creating anonymized\nidentity proof</string>
+    <string name="generating_proof_tip">"<b>"Remember:"</b>" Your data is only stored on this device and is\nnever reviled or shared with any third party</string>
+    <string name="all_done">All Done!</string>
+    <string name="all_done_description">You will be redirected\nin 5 sec</string>
+    <string name="starts_in_x_hours">Starts in %1$s hours</string>
+    <string name="ends_in_x_days">Ends in %1$s days</string>
+    <string name="ends_in_x_days_y_hours">Ends in %1$s days %2$s hours</string>
+    <string name="document_number">Document number</string>
+    <string name="date_of_expiry">Date of expiry</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="nationality">Nationality</string>
+    <string name="steps">Step %1$s/3</string>
+    <string name="error_while_reading">NFC not scanned, please try again</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="expiry_date_error">Passport has expired</string>
+    <string name="delete_all_data_header">Delete All Data</string>
+    <string name="delete_all_data_message">Are you sure you want to delete all data? This action cannot be undone.</string>
+    <string name="decline">Decline</string>
+    <string name="completed_vote">Completed</string>
+    <string name="enter_passcode">Enter Passcode</string>
+    <string name="passcode_description">Don\'t forget the code, or you\nwon\'t be able to restore it</string>
+    <string name="too_many_attempts">Too many attempts, try again later</string>
+    <string name="enter">Enter</string>
+    <string name="maybe_later">Maybe Later</string>
+    <string name="enable">Enable</string>
+    <string name="enable_nfingerprint">Enable\nFingerprint</string>
+    <string name="set_up_a_passcode">Set up a\nPin-code</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="logout">Logout</string>
+    <string name="biometric_prompt_title">Scan your fingerprint</string>
+    <string name="biometric_prompt_description">Please place your finger on the fingerprint scanner to authenticate\n</string>
+    <string name="repeat_passcode">Repeat Passcode</string>
+
+</resources>
